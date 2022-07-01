@@ -1,0 +1,81 @@
+body {
+    font-family: 'Nunito', sans-serif !important;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    font-family: 'Nunito', sans-serif !important;
+    color: #fff;
+}
+h2{
+    font-weight: 600;
+    padding: 20px;
+    color: #fff;
+}
+
+.background {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+.container{
+    padding:0 auto;
+    width: 80% !important;
+    max-width: 450px !important;
+    margin:0 auto;
+}
+.voltar, .user{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.voltar img:nth-child(1){
+    height: 40px;
+    width: 40px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.user img:nth-child(1){
+    min-height: 50px;
+    min-width: 50px;
+    max-width: 150px;
+    max-height: 150px; 
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.vertical {
+    margin: 10% 0 0 0  !important;
+}
+.form-label{
+    margin-bottom: 0 !important;
+    color: #fff;
+}
+.help-center {
+    color: #fff;
+    padding: 20px 0 15px 0;
+}
+.a2{
+    border-radius: 25px !important;
+    display: block;
+    color: #fff !important;
+    border: none;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 10px !important;
+    text-decoration: none !important;
+}

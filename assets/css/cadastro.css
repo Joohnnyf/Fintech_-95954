@@ -1,0 +1,112 @@
+.background {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+body{
+    font-family: 'Nunito', sans-serif !important;
+    box-sizing: border-box;
+    
+}
+
+.imagem {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.blalogo {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-left: 40px;
+}
+.logo{
+    width: 120px;
+    
+
+}
+.buttom-position{
+    position: relative !important;
+    right: 0 !important;
+}
+
+.botão-x{
+    width: 40px;
+   
+    
+
+   
+}
+.vertical {
+    margin: 10% 0 0 0  !important;
+}
+.container{
+    padding:0 auto;
+    width: 80% !important;
+    max-width: 450px !important;
+    margin:0 auto;
+}
+
+
+h1{
+    
+    text-align: center !important;
+    margin: 0 !important;
+    font-size: 35px !important;
+    color: #fff;
+    padding-bottom: 25px !important;
+    
+}
+
+label{
+    color: #fff;
+    margin-left: 10px !important;
+    
+}
+
+input{
+    border-radius: 15px !important;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.form-label{
+    margin-bottom: 0 !important;
+}
+.a2 {
+    border-radius: 25px !important;
+    display: block;
+    color: #fff !important;
+    border: none;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 10px !important;
+    text-decoration: none !important;
+}
+.help-center {
+    color: #fff;
+    padding: 20px 0 15px 0;
+    
+    
+   
+   
+    
+    
+}
